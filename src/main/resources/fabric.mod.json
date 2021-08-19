@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "riteofpassage",
+  "version": "${version}",
+
+  "name": "Rite Of Passage",
+  "description": "This is my rite of passage into Minecraft modding, and that means EMERALD TOOLS BABY",
+  "authors": [
+    "DrDiabolical"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "mit",
+  "icon": "assets/riteofpassage/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.drdiabolical.riteofpassage.RiteOfPassage"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
