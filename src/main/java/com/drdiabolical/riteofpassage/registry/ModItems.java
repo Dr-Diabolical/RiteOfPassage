@@ -12,9 +12,11 @@ public class ModItems {
 
     // Block Items
     public static final BlockItem SAPPHIRE_BLOCK = new BlockItem(ModBlocks.SAPPHIRE_BLOCK, new Item.Settings().group(RiteOfPassage.ITEM_GROUP));
+    public static final BlockItem SAPPHIRE_ORE = new BlockItem(ModBlocks.SAPPHIRE_ORE, new Item.Settings().group(RiteOfPassage.ITEM_GROUP));
 
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(RiteOfPassage.MOD_ID, "sapphire"), SAPPHIRE);
         Registry.register(Registry.ITEM, new Identifier(RiteOfPassage.MOD_ID, "sapphire_block"), SAPPHIRE_BLOCK);
+        Registry.register(Registry.ITEM, new Identifier(RiteOfPassage.MOD_ID, "sapphire_ore"), SAPPHIRE_ORE);
     }
 }

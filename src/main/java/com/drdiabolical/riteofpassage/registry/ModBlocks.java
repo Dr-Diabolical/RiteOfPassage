@@ -17,7 +17,15 @@ public class ModBlocks {
         .strength(4.0f, 30.0f)
         .sounds(BlockSoundGroup.METAL));
 
+    public static final Block SAPPHIRE_ORE = new Block(FabricBlockSettings
+        .of(Material.METAL)
+        .breakByTool(FabricToolTags.PICKAXES, 2)
+        .requiresTool()
+        .strength(4.0f, 30.0f)
+        .sounds(BlockSoundGroup.STONE));
+
     public static void registerBlocks() {
         Registry.register(Registry.BLOCK, new Identifier(RiteOfPassage.MOD_ID, "sapphire_block"), SAPPHIRE_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(RiteOfPassage.MOD_ID, "sapphire_ore"), SAPPHIRE_ORE);
     }
 }
