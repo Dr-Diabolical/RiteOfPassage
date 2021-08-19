@@ -1,6 +1,7 @@
 package com.drdiabolical.riteofpassage;
 
 import com.drdiabolical.riteofpassage.registry.ModBlocks;
+import com.drdiabolical.riteofpassage.registry.ModGeneration;
 import com.drdiabolical.riteofpassage.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
@@ -21,5 +22,6 @@ public class RiteOfPassage implements ModInitializer {
     public void onInitialize() {
         ModItems.registerItems();
         ModBlocks.registerBlocks();
+        ModGeneration.registerGeneration();
     }
 }
