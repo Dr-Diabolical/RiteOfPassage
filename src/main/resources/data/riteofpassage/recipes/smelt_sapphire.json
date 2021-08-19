@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "riteofpassage:sapphire_ore"
+  },
+  "result": "riteofpassage:sapphire",
+  "experience": 0.4,
+  "cookingtime": 200,
+  "group": "riteofpassage"
+}
