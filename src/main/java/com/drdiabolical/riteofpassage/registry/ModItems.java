@@ -1,6 +1,9 @@
 package com.drdiabolical.riteofpassage.registry;
 
 import com.drdiabolical.riteofpassage.*;
+import com.drdiabolical.riteofpassage.customtoolitems.CustomAxeItem;
+import com.drdiabolical.riteofpassage.customtoolitems.CustomHoeItem;
+import com.drdiabolical.riteofpassage.customtoolitems.CustomPickaxeItem;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;

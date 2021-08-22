@@ -1,4 +1,4 @@
-package com.drdiabolical.riteofpassage;
+package com.drdiabolical.riteofpassage.customtoolitems;
 
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ToolMaterial;
