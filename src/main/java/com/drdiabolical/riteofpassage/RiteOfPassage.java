@@ -10,14 +10,16 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
 public class RiteOfPassage implements ModInitializer {
-
+    // Stores the MOD ID for referencing
     public static final String MOD_ID = "riteofpassage";
 
+    // Creates the item group for all mod items (and makes custom creative mode menu tab)
     public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.build(
-        new Identifier(MOD_ID, "general"),
-        () -> new ItemStack(ModItems.SAPPHIRE)
+        new Identifier(MOD_ID, "general"), // Tab title
+        () -> new ItemStack(ModItems.SAPPHIRE) // Tab icon
     );
 
+    // Override onInitialize - Called upon initialization of the mod
     @Override
     public void onInitialize() {
         ModItems.registerItems();

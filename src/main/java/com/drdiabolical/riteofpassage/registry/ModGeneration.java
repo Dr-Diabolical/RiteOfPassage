@@ -16,6 +16,7 @@ import net.minecraft.world.gen.feature.OreFeatureConfig;
 import net.minecraft.world.gen.heightprovider.UniformHeightProvider;
 
 public class ModGeneration {
+    // Custom world generation features
     public static ConfiguredFeature<?, ?> SAPPHIRE_ORE_OVERWORLD = Feature.ORE
         .configure(new OreFeatureConfig(
             OreFeatureConfig.Rules.BASE_STONE_OVERWORLD,
@@ -26,6 +27,7 @@ public class ModGeneration {
             .spreadHorizontally()
             .repeat(3);
 
+    // registerGeneration - Adds custom generation settings to the fabric registry
     public static void registerGeneration() {
         RegistryKey<ConfiguredFeature <?, ?>> sapphireOreOverworld = RegistryKey.of(Registry.CONFIGURED_FEATURE_KEY,
             new Identifier(RiteOfPassage.MOD_ID, "sapphire_ore"));
