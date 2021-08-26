@@ -17,10 +17,10 @@ import net.minecraft.world.gen.heightprovider.UniformHeightProvider;
 
 public class ModGeneration {
     // Custom world generation features
-    public static ConfiguredFeature<?, ?> SAPPHIRE_ORE_OVERWORLD = Feature.ORE
+    public static ConfiguredFeature<?, ?> BISMUTH_ORE_OVERWORLD = Feature.ORE
         .configure(new OreFeatureConfig(
             OreFeatureConfig.Rules.BASE_STONE_OVERWORLD,
-            ModBlocks.SAPPHIRE_ORE.getDefaultState(),
+            ModBlocks.BISMUTH_ORE.getDefaultState(),
             10))
         .range(new RangeDecoratorConfig(
             UniformHeightProvider.create(YOffset.aboveBottom(0), YOffset.fixed(20))))
@@ -29,9 +29,9 @@ public class ModGeneration {
 
     // registerGeneration - Adds custom generation settings to the fabric registry
     public static void registerGeneration() {
-        RegistryKey<ConfiguredFeature <?, ?>> sapphireOreOverworld = RegistryKey.of(Registry.CONFIGURED_FEATURE_KEY,
-            new Identifier(RiteOfPassage.MOD_ID, "sapphire_ore"));
-        Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, sapphireOreOverworld.getValue(), SAPPHIRE_ORE_OVERWORLD);
-        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, sapphireOreOverworld);
+        RegistryKey<ConfiguredFeature <?, ?>> bismuthOreOverworld = RegistryKey.of(Registry.CONFIGURED_FEATURE_KEY,
+            new Identifier(RiteOfPassage.MOD_ID, "bismuth_ore"));
+        Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, bismuthOreOverworld.getValue(), BISMUTH_ORE_OVERWORLD);
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, bismuthOreOverworld);
     }
 }

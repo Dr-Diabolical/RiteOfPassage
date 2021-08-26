@@ -16,7 +16,7 @@ public class RiteOfPassage implements ModInitializer {
     // Creates the item group for all mod items (and makes custom creative mode menu tab)
     public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.build(
         new Identifier(MOD_ID, "general"), // Tab title
-        () -> new ItemStack(ModItems.SAPPHIRE) // Tab icon
+        () -> new ItemStack(ModItems.BISMUTH) // Tab icon
     );
 
     // Override onInitialize - Called upon initialization of the mod

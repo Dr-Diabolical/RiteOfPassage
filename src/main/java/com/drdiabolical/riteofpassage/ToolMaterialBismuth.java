@@ -4,9 +4,9 @@ import com.drdiabolical.riteofpassage.registry.ModItems;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class ToolMaterialSapphire implements ToolMaterial {
+public class ToolMaterialBismuth implements ToolMaterial {
     // Custom material static instance to be called for reference
-    public static final ToolMaterialSapphire INSTANCE = new ToolMaterialSapphire();
+    public static final ToolMaterialBismuth INSTANCE = new ToolMaterialBismuth();
 
     // Override getDurability - Returns the material's base durability
     @Override
@@ -41,6 +41,6 @@ public class ToolMaterialSapphire implements ToolMaterial {
     // Override getRepairIngredient - Returns the material's repair ingredient
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(ModItems.SAPPHIRE);
+        return Ingredient.ofItems(ModItems.BISMUTH);
     }
 }

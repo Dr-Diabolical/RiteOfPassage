@@ -11,13 +11,13 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
     // Custom blocks
-    public static final Block SAPPHIRE_BLOCK = new Block(FabricBlockSettings
+    public static final Block BISMUTH_BLOCK = new Block(FabricBlockSettings
         .of(Material.METAL)
         .breakByTool(FabricToolTags.PICKAXES, 2)
         .requiresTool()
         .strength(4.0f, 30.0f)
         .sounds(BlockSoundGroup.METAL));
-    public static final Block SAPPHIRE_ORE = new Block(FabricBlockSettings
+    public static final Block BISMUTH_ORE = new Block(FabricBlockSettings
         .of(Material.METAL)
         .breakByTool(FabricToolTags.PICKAXES, 2)
         .requiresTool()
@@ -26,7 +26,7 @@ public class ModBlocks {
 
     // registerBlocks - Adds each custom block to the fabric registry
     public static void registerBlocks() {
-        Registry.register(Registry.BLOCK, new Identifier(RiteOfPassage.MOD_ID, "sapphire_block"), SAPPHIRE_BLOCK);
-        Registry.register(Registry.BLOCK, new Identifier(RiteOfPassage.MOD_ID, "sapphire_ore"), SAPPHIRE_ORE);
+        Registry.register(Registry.BLOCK, new Identifier(RiteOfPassage.MOD_ID, "bismuth_block"), BISMUTH_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(RiteOfPassage.MOD_ID, "bismuth_ore"), BISMUTH_ORE);
     }
 }

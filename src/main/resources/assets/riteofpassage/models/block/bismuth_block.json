@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "riteofpassage:blocks/sapphire_block"
+    "all": "riteofpassage:blocks/bismuth_block"
   }
 }

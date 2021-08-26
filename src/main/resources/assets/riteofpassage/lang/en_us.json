@@ -1,11 +1,11 @@
 {
   "itemGroup.riteofpassage.general": "Rite Of Passage",
-  "item.riteofpassage.sapphire": "Sapphire",
+  "item.riteofpassage.bismuth": "Bismuth",
   "item.riteofpassage.sapphire_pickaxe": "Sapphire Pickaxe",
   "item.riteofpassage.sapphire_shovel": "Sapphire Shovel",
   "item.riteofpassage.sapphire_sword": "Sapphire Sword",
   "item.riteofpassage.sapphire_axe": "Sapphire Axe",
   "item.riteofpassage.sapphire_hoe": "Sapphire Hoe",
-  "block.riteofpassage.sapphire_block": "Sapphire Block",
-  "block.riteofpassage.sapphire_ore": "Sapphire Ore"
+  "block.riteofpassage.bismuth_block": "Bismuth Block",
+  "block.riteofpassage.bismuth_ore": "Bismuth Ore"
 }

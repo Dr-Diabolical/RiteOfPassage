@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "riteofpassage:sapphire"
+      "item": "riteofpassage:bismuth"
     }
   },
   "result": {
-    "item": "riteofpassage:sapphire_block",
+    "item": "riteofpassage:bismuth_block",
     "count": 1
   },
   "group": "riteofpassage"

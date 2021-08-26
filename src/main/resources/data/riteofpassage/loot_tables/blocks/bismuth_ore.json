@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "riteofpassage:sapphire_ore",
+              "name": "riteofpassage:bismuth_ore",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -29,7 +29,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "riteofpassage:sapphire",
+              "name": "riteofpassage:bismuth",
               "functions": [
                 {
                   "function": "minecraft:apply_bonus",
