@@ -15,13 +15,13 @@ public class ModBlocks {
         .of(Material.METAL)
         .breakByTool(FabricToolTags.PICKAXES, 2)
         .requiresTool()
-        .strength(4.0f, 30.0f)
+        .strength(4.0f, 20.0f)
         .sounds(BlockSoundGroup.METAL));
     public static final Block BISMUTH_ORE = new Block(FabricBlockSettings
         .of(Material.METAL)
         .breakByTool(FabricToolTags.PICKAXES, 2)
         .requiresTool()
-        .strength(4.0f, 30.0f)
+        .strength(4.0f, 20.0f)
         .sounds(BlockSoundGroup.STONE));
 
     // registerBlocks - Adds each custom block to the fabric registry

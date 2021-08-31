@@ -11,7 +11,7 @@ public class ToolMaterialBismuth implements ToolMaterial {
     // Override getDurability - Returns the material's base durability
     @Override
     public int getDurability() {
-        return 1923;
+        return 1787;
     }
 
     // Override getMiningSpeedMultiplier - Returns the material's base mining speed multiplier
@@ -23,7 +23,7 @@ public class ToolMaterialBismuth implements ToolMaterial {
     // Override getAttackDamage - Returns the material's base attack damage
     @Override
     public float getAttackDamage() {
-        return 2.5f;
+        return 1.5f;
     }
 
     // Override getMiningLevel - Returns the material's mining level

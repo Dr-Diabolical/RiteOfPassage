@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#",
-    "#",
-    "/"
+    "###",
+    " / ",
+    " / "
   ],
   "key": {
     "#": {
@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "riteofpassage:sapphire_sword",
+    "item": "riteofpassage:bismuth_pickaxe",
     "count": 1
   },
   "group": "riteofpassage"

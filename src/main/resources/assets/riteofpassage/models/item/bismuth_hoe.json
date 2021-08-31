@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "riteofpassage:items/sapphire_axe"
+    "layer0": "riteofpassage:items/bismuth_hoe"
   }
 }
