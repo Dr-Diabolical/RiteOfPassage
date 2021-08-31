@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Rite Of Passage",
-  "description": "This is my rite of passage into Minecraft modding, and that means EMERALD TOOLS BABY",
+  "description": "This is my rite of passage into Minecraft modding. This mod adds Bismuth to the game, including tools and armor",
   "authors": [
     "DrDiabolical"
   ],
@@ -32,6 +32,5 @@
     "java": ">=16"
   },
   "suggests": {
-    "another-mod": "*"
   }
 }
