@@ -21,11 +21,11 @@ public class ModGeneration {
         .configure(new OreFeatureConfig(
             OreFeatureConfig.Rules.BASE_STONE_OVERWORLD,
             ModBlocks.BISMUTH_ORE.getDefaultState(),
-            10))
+            8))
         .range(new RangeDecoratorConfig(
             UniformHeightProvider.create(YOffset.aboveBottom(0), YOffset.fixed(20))))
             .spreadHorizontally()
-            .repeat(3);
+            .repeat(1);
 
     // registerGeneration - Adds custom generation settings to the fabric registry
     public static void registerGeneration() {
