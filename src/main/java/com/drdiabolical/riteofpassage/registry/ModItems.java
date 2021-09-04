@@ -4,6 +4,7 @@ import com.drdiabolical.riteofpassage.*;
 import com.drdiabolical.riteofpassage.customtoolitems.CustomAxeItem;
 import com.drdiabolical.riteofpassage.customtoolitems.CustomHoeItem;
 import com.drdiabolical.riteofpassage.customtoolitems.CustomPickaxeItem;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -19,6 +20,12 @@ public class ModItems {
     public static final ToolItem BISMUTH_AXE = new CustomAxeItem(ToolMaterialBismuth.INSTANCE, 3, -2f, new Item.Settings().group(RiteOfPassage.ITEM_GROUP));
     public static final ToolItem BISMUTH_HOE = new CustomHoeItem(ToolMaterialBismuth.INSTANCE, -1, -0.3f, new Item.Settings().group(RiteOfPassage.ITEM_GROUP));
 
+    // Custom armor items
+    public static final Item BISMUTH_HELMET = new ArmorItem(ArmorMaterialBismuth.INSTANCE, EquipmentSlot.HEAD, new Item.Settings().group(RiteOfPassage.ITEM_GROUP));
+    public static final Item BISMUTH_CHESTPLATE = new ArmorItem(ArmorMaterialBismuth.INSTANCE, EquipmentSlot.CHEST, new Item.Settings().group(RiteOfPassage.ITEM_GROUP));
+    public static final Item BISMUTH_LEGGINGS = new ArmorItem(ArmorMaterialBismuth.INSTANCE, EquipmentSlot.LEGS, new Item.Settings().group(RiteOfPassage.ITEM_GROUP));
+    public static final Item BISMUTH_BOOTS = new ArmorItem(ArmorMaterialBismuth.INSTANCE, EquipmentSlot.FEET, new Item.Settings().group(RiteOfPassage.ITEM_GROUP));
+
     // Custom block items
     public static final BlockItem BISMUTH_BLOCK = new BlockItem(ModBlocks.BISMUTH_BLOCK, new Item.Settings().group(RiteOfPassage.ITEM_GROUP));
     public static final BlockItem BISMUTH_ORE = new BlockItem(ModBlocks.BISMUTH_ORE, new Item.Settings().group(RiteOfPassage.ITEM_GROUP));
@@ -31,6 +38,10 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(RiteOfPassage.MOD_ID, "bismuth_sword"), BISMUTH_SWORD);
         Registry.register(Registry.ITEM, new Identifier(RiteOfPassage.MOD_ID, "bismuth_axe"), BISMUTH_AXE);
         Registry.register(Registry.ITEM, new Identifier(RiteOfPassage.MOD_ID, "bismuth_hoe"), BISMUTH_HOE);
+        Registry.register(Registry.ITEM, new Identifier(RiteOfPassage.MOD_ID, "bismuth_helmet"), BISMUTH_HELMET);
+        Registry.register(Registry.ITEM, new Identifier(RiteOfPassage.MOD_ID, "bismuth_chestplate"), BISMUTH_CHESTPLATE);
+        Registry.register(Registry.ITEM, new Identifier(RiteOfPassage.MOD_ID, "bismuth_leggings"), BISMUTH_LEGGINGS);
+        Registry.register(Registry.ITEM, new Identifier(RiteOfPassage.MOD_ID, "bismuth_boots"), BISMUTH_BOOTS);
         Registry.register(Registry.ITEM, new Identifier(RiteOfPassage.MOD_ID, "bismuth_block"), BISMUTH_BLOCK);
         Registry.register(Registry.ITEM, new Identifier(RiteOfPassage.MOD_ID, "bismuth_ore"), BISMUTH_ORE);
     }
